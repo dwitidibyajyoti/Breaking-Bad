@@ -13,7 +13,7 @@ const Search = ({getQuary}) => {
         <input
           type="text"
           className="form-control"
-          placeholer="Serch characters"
+          placeholder="Serch characters"
           value={text}
           onChange={(e) => {
             onChange(e.target.value);
